@@ -2,8 +2,7 @@ import numpy as np
 import nnfs
 from nnfs.datasets import spiral_data
 nnfs.init()
-#Hidden layer + Activation functions
-
+#Implementing Loss
 
 class Layer_Dense:
     def __init__(self, n_inputs, n_neurons):

@@ -14,3 +14,4 @@ exp_values = np.exp(layer_outputs)
 #axis = 0 -> sum of cols, axis = 1 -> sum of rows
 norm_values = exp_values / np.sum(exp_values, axis=1, keepdims = True)
 print(norm_values)
+
